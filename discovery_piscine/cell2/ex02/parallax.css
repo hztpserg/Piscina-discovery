@@ -1,0 +1,52 @@
+
+.section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.static {
+    display: flex;
+    height: 200px;
+    background: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg1::after {
+    background-image: url("parallax2.jpeg");
+}
+
+.bg2::after {
+    background-image: url("parallax1.png");
+}
+
+.txt {
+    z-index: 100;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.bgr {
+    /*z-index: 100;*/
+    font-size: 100px;
+    color: white;
+}
+

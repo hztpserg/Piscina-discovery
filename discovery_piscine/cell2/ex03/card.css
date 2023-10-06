@@ -1,0 +1,49 @@
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.general {
+    padding-top: 150px;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.but {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.table {
+    border-collapse: collapse;
+    border: 1px solid gray;
+}
+
+.p1 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.p2 {
+    font-weight: bold;
+    font-size: 18px;
+    color: gray;
+}
+
+.p3 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.p4 {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}

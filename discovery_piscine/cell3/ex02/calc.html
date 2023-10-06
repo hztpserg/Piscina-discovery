@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculador</title>
+        <link rel="stylesheet" href="calc.css">
+    </head>
+    <body>
+            <div class="div0">
+                <form class="div1" id="formID">
+
+                    <label for="arg01">Arg1</label>
+                    <input type="text" id="arg01" class="argumento1">
+                    
+                    <select name="operadores" id="operadorID">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">*</option>
+                        <option value="/">/</option>
+                        <option value="%">%</option>
+                    </select>
+
+                    <label for="arg02">Arg2</label>
+                    <input type="text" id="arg02" class="argumento2">
+
+                    <input type="submit" id="caclkBut" value="Try me!">
+                </form>
+                <div class="div2">
+                    <input type="text" class="resultado" id="resID">
+                </div>
+
+                <script src="./calc.js"></script>
+            </div>
+    </body>
+</html>

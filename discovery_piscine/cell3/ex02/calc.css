@@ -1,0 +1,20 @@
+.argumento1 {
+    width: 80px;
+}
+.argumento2 {
+    width: 80px;
+}
+.div0 {
+    width: 370px;    
+}
+.div2 {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+}
+.resultado {
+    width: 370px;
+    height: 300px;
+}

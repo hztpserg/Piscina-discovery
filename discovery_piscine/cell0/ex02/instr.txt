@@ -1,0 +1,15 @@
+/bin/bash
+Mkdir ex02
+?> instr.txt
+?> midLS
+
+cat > midLS
+
+ls -m > midLS
+
+/bin/bash midLS
+
+
+touch gga
+
+vin gga

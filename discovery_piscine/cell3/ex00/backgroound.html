@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body id="bodyID">
+        <button onclick="Bgdcolor()">Click</button>
+    </body>
+
+    <script type='text/javascript'>
+        function Bgdcolor() {
+            var element = document.getElementById("bodyID");
+           
+            let backColor = element.style.backgroundColor;
+
+            if (backColor == "rgb(0, 128, 0)")          /*Verde*/
+            {
+                element.style.backgroundColor = "rgb(128, 0, 0)";   /*Rojo*/
+            } else {
+                element.style.backgroundColor = "rgb(0, 128, 0)";   /*Verde*/
+            }
+        }
+    </script>
+</html>
